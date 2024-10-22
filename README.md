@@ -88,6 +88,10 @@ To upgrade a user to an administrator, follow these steps:
 
 The user will now have administrative privileges and can access admin features.
 
+## Demo Video
+
+Watch the demo of the Loan App here: [Demo Video](https://www.youtube.com/watch?v=your_video_id)
+
 
 ## Screenshots
 
