@@ -64,7 +64,7 @@ To run the application locally, follow these steps:
 3. Start the server:
 
    ```bash
-   nodemon
+   npm run dev
    ```
 
 Make sure the server runs on **Port 5000** and the client on **Port 5173**.
