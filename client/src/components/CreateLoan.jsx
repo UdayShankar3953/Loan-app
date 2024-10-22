@@ -15,7 +15,7 @@ const CreateLoan = () => {
       e.preventDefault();
       if (!amount || !term) throw "Please fill in all fields!";
       await axios.post(
-        "http://localhost:5000/api/v1/loans/create",
+        `${process.env.REACT_APP_API_URL}/loans/create/`,
         { amount, terms: term },
         {
           headers: {
