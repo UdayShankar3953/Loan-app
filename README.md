@@ -88,3 +88,21 @@ To upgrade a user to an administrator, follow these steps:
 
 The user will now have administrative privileges and can access admin features.
 
+
+## Screenshots
+
+### User Dashboard
+![User Registration](Screenshots/1.png)
+
+### Loan Request
+![Loan Request](Screenshots/2.png)
+
+### Admin Dashboard
+![Admin Dashboard](Screenshots/3.png)
+
+### login page
+![Repayment Management](Screenshots/4.png)
+
+### Sign up page
+![User Management](Screenshots/5.png)
+
