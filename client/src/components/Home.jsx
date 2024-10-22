@@ -12,7 +12,7 @@ const Home = () => {
 
   const fetchLoans = async () => {
     try {
-      const loanData = await axios.get("http://localhost:5000/api/v1/loans", {
+      const loanData = await axios.get(`${process.env.REACT_APP_API_URL}/loans`, {
         headers: {
           "Content-Type": "application/json",
           bearertoken: token,
@@ -40,7 +40,7 @@ const Home = () => {
   const updateStatus = async (id, status) => {
     try {
       await axios.patch(
-        `http://localhost:5000/api/v1/loans/update-status/`,
+        `${process.env.REACT_APP_API_URL}/loans/update-status/`,
         { id, status },
         {
           headers: {
@@ -60,7 +60,7 @@ const Home = () => {
   const updatePayment = async (loanId, installmentId, additionalAmount) => {
     try {
       await axios.patch(
-        `http://localhost:5000/api/v1/loans/repay/`,
+        `${process.env.REACT_APP_API_URL}/loans/repay/`,
         { loanId, installmentId, additionalAmount },
         {
           headers: {
@@ -78,7 +78,7 @@ const Home = () => {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`http://localhost:5000/api/v1/loans/delete/${id}`, {
+      await axios.delete(`${process.env.REACT_APP_API_URL}/loans/delete/${id}`, {
         headers: {
           "Content-Type": "application/json",
           bearertoken: token,
