@@ -1,49 +1,90 @@
-﻿# Mini Loan App
 
-Welcome to the Mini Loan App! This application provides a platform for managing loans for both administrators and clients.
+# Loan App
 
-## Features : 
-1. User Registration and Loan Request
-2. Loan Approval Process
-3. Repayment Management
-4. Additional Loan Requests
+Welcome to the **Loan App**! This application provides a platform for managing loans for both administrators and clients.
 
-## Cloning the Project from GitHub : 
+## Features
+
+- **User Registration and Loan Requests**
+- **Loan Approval Process**
+- **Repayment Management**
+- **Additional Loan Requests**
+
+## Cloning the Project from GitHub
 
 To clone the Mini Loan App project from GitHub, follow these steps:
 
 1. Open your terminal or command prompt.
-2. Navigate to the directory where you want to clone the project.
+2. Navigate to the directory where you'd like to clone the project.
 3. Use the following command to clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/mini-loan-app.git
-   
-   cd mini-loan-app
+   git clone https://github.com/UdayShankar3953/Loan-app.git
+   cd Loan-app
+   ```
 
-### Running on Local Server
+## Running the Application Locally
 
-If you prefer to run the application locally, follow these steps:
+To run the application locally, follow these steps:
 
-#### Using npm
+### Client Setup (Using npm)
 
-1. Navigate to the client directory: `cd client`
-2. Install dependencies: `npm install`
-3. Run the client: `npm run dev`
-4. Navigate to the server directory: `cd ../server`
-5. Install dependencies: `npm install`
-6. Run the server: `nodemon`
+1. Navigate to the client directory:
 
-Make sure the server is running on Port 5000 and the client on Port 5173.
+   ```bash
+   cd client
+   ```
+
+2. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the client:
+
+   ```bash
+   npm run dev
+   ```
+
+### Server Setup
+
+1. Navigate to the server directory:
+
+   ```bash
+   cd ../server
+   ```
+
+2. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the server:
+
+   ```bash
+   nodemon
+   ```
+
+Make sure the server runs on **Port 5000** and the client on **Port 5173**.
 
 ## Admin Credentials
 
-To upgrade a user to an administrator:
+To access the admin features, log in using the following credentials:
 
-1. Log in using the provided admin credentials.
-2. Navigate to the user management section.
-3. Select the user you want to upgrade.
-4. Modify the user's profile in the MongoDB database, changing the `user_type` field from "user" to "admin".
-5. The user will now have administrative privileges and can access the admin features of the application.
+- **Email:** admin@gmail.com
+- **Password:** admin1234
 
-Feel free to explore and enjoy managing your loans!
+## Upgrading a User to Administrator
+
+To upgrade a user to an administrator, follow these steps:
+
+1. Log in with the admin credentials.
+2. Navigate to the User Management section.
+3. Select the user you'd like to upgrade.
+4. Modify the user's profile in the MongoDB database:
+   - Change the `user_type` field from `"user"` to `"admin"`.
+
+The user will now have administrative privileges and can access admin features.
+
