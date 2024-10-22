@@ -90,7 +90,7 @@ The user will now have administrative privileges and can access admin features.
 
 ## Demo Video
 
-Watch the demo of the Loan App here: [Demo Video](https://www.youtube.com/watch?v=your_video_id)
+Watch the demo of the Loan App here: [Demo Video](https://drive.google.com/file/d/1ueOpgIoAmyLNRimVKcA62IZNdZasGu1x/view?usp=sharing)
 
 
 ## Screenshots
