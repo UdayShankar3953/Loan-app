@@ -17,7 +17,7 @@ const Signup = () => {
     try {
       if (!email || !password) throw "Please fill all fields!";
       const user = await axios.post(
-        "http://localhost:5000/api/v1/auth/signup",
+        `${process.env.REACT_APP_API_URL}/auth/signup`,
         {
           email,
           password,
