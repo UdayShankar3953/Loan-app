@@ -4,6 +4,7 @@ import { AuthContext } from "../App";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 
+
 const Home = () => {
   const [loans, setLoans] = useState([]);
   const { user, token, setLoggedIn, setUser } = useContext(AuthContext);
